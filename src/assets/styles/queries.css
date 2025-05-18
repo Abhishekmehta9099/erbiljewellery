@@ -20,6 +20,25 @@ video {
   height: auto;
 }
 
+/* Core Values Section Fix */
+/* Allow horizontal overflow for this specific section */
+.core-values-section {
+  overflow-x: auto;      /* enable horizontal scrolling if needed */
+  padding: 1rem 0;       /* spacing around the section */
+  width: 100vw;          /* full viewport width */
+  box-sizing: border-box;
+}
+.core-values-container {
+  display: flex;
+  flex-wrap: nowrap;     /* keep cards in a row */
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.core-values-container .core-value-card {
+  flex: 0 0 auto;        /* cards don't shrink or grow */
+  width: 280px;          /* fixed card width */
+}
+
 /* Responsive Styles for Mobile (max-width: 768px) */
 @media (max-width: 768px) {
   /* Headings and Paragraphs */
