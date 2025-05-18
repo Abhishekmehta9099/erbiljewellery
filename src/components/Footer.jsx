@@ -79,7 +79,7 @@ const Footer = () => {
             </li>
             <li>
               <Envelope size="22" />{" "}
-              <a href="erbil.jew@gmail.com ">erbil.jew@gmail.com </a>
+              <a href="mailto:erbil.jew@gmail.com ">erbil.jew@gmail.com </a>
             </li>
           </ul>
         </div>
